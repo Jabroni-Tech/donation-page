@@ -1,0 +1,39 @@
+{
+  "name": "donation-page",
+  "version": "1.0.0",
+  "description": "donate page for our pursuits",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint — fix”, “git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jabroni-Tech/donation-page.git"
+  },
+  "author": "Jason McCutchan, Max Peng, John Yuen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jabroni-Tech/donation-page/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/Jabroni-Tech/donation-page#readme"
+}
