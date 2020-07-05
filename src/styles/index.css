@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: powderblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    align-self: center;
+}
