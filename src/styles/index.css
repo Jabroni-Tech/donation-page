@@ -2,13 +2,68 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: powderblue;
+    background-color: #FAF3DD;
+    flex: 1;
 }
 
 h1 {
     text-align: center;
+    font-family: Nunito;
 }
 
 img {
     align-self: center;
+}
+
+.begForBoba {
+    display: flex;
+    flex-direction: row;
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+}
+
+.leftContainer {
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    background-color: red;
+}
+
+.donateButton {
+    background-color: #007CBE;
+    width: 248px;
+    height: 88px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.donateText {
+    color: #FAF3DD;
+    font-size: 48px;
+}
+
+.dollarAmount {
+    display: flex;
+    flex-direction: row;
+    background-color: #007CBE;
+    width: 193px;
+    height: 88px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.dollarButton: {
+    flex: 1;
 }
